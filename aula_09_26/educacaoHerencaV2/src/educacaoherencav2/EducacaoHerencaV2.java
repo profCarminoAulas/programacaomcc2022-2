@@ -1,0 +1,26 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package educacaoherencav2;
+
+/**
+ *
+ * @author profj
+ */
+public class EducacaoHerencaV2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        AlunoDeGraduacao aluno = new 
+            AlunoDeGraduacao();
+        ProfessorHorista professor = new 
+            ProfessorHorista();
+        Pessoa pessoa = new 
+            Pessoa("maria", 14);
+    }
+    
+}
