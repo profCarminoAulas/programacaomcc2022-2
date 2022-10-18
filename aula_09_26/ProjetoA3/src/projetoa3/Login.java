@@ -105,6 +105,10 @@ public class Login extends javax.swing.JFrame {
                 System.out.println("senha correta");
                 //System.exit(0);
                 setVisible(false);
+                SegundaTela segunda = 
+                        new SegundaTela();
+        segunda.setLocationRelativeTo(null);
+        segunda.setVisible(true);
             } else {
                 System.out.println("senha incorreta");
             }
